@@ -1,0 +1,5 @@
+.card__simple--align-items {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

@@ -1,0 +1,36 @@
+.job-detail-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        'job-title'
+        'job-description'
+        'company'
+        'manage-job';
+    gap: 10px;
+}
+
+@media screen and (min-width: 900px) {
+    .job-detail-container {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas: 
+        'job-title job-title company'
+        'job-description job-description company'
+        'job-description job-description manage-job';
+    }
+}
+
+.job-title-container {
+    grid-area: job-title;
+}
+
+.job-description-container {
+    grid-area: job-description;
+}
+
+.company-container {
+    grid-area: company;
+}
+
+.manage-job-container {
+    grid-area: manage-job;
+}

@@ -1,0 +1,27 @@
+.field-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 8px 0;
+}
+
+.card__add-job--size {
+  max-width: 35rem;
+}
+
+.gg {
+  width: 90%;
+  flex: none;
+}
+
+@media (min-width: 600px) {
+  .gg {
+    flex: 1;
+    flex-shrink: 0;
+    max-width: 35rem;
+  }
+}
+
+.container--vertical-space {
+  margin: 1rem 0;
+}

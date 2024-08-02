@@ -1,0 +1,26 @@
+.recent-jobs-container {
+  width: 100vw;
+}
+
+.recent-jobs__cards-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+@media screen and (min-width: 1000px) {
+  .recent-jobs__cards-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.view-jobs-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+}

@@ -1,0 +1,30 @@
+.show-hide-text-btn {
+  all: unset;
+  color: purple;
+}
+
+.job-card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 5px;
+}
+
+.job-card-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
+.job-type {
+  color: gray;
+}
+
+.job-title {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.card__job--size {
+  width: 80%;
+}
